@@ -1,7 +1,7 @@
 //your JS code here. If required.
-document.getElementById('change_btn').addEventListener('click',()=>{
-	const blockId=document.getElementById('input-id').value;
-	const colorId=document.getElementById('color-id').value;
+document.getElementById('change_button').addEventListener('click',()=>{
+	const blockId=document.getElementById('block_id').value;
+	const colorId=document.getElementById('colour_id').value;
 	document.getElementById(blockId).style.backgroundColor=colorId;
 });
 

@@ -1,5 +1,5 @@
 /*  your css code here. If applicable */
-.container {
+.grid-container{
     display: grid;
     grid-template-columns: repeat(3, 100px);
     grid-template-rows: repeat(3, 100px);
@@ -7,7 +7,7 @@
     margin-bottom: 20px;
 }
 
-.grid-item {
+.grid-item{
     display: flex;
     align-items: center;
     justify-content: center;
