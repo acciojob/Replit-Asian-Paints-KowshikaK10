@@ -5,9 +5,9 @@ document.getElementById('change_button').addEventListener('click',()=>{
 	document.getElementById(blockId).style.backgroundColor=colorId;
 });
 
-document.getElementById('reset').addEventListener('click',()=>{
+document.getElementById('reset_button').addEventListener('click',()=>{
 	const allBlocks=document.getElementsByClassName('grid-item');
 	for(var i = 0; i < allBlocks.length; i++) {
-        allBlocks[i].style.backgroundColor = 'transparent';
+        allBlocks[i].style.backgroundColor='transparent';
     }
 });
